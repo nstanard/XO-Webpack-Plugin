@@ -1,0 +1,24 @@
+{
+  "name": "xo-webpack-plugin",
+  "version": "1.0.0",
+  "description": "A plugin for webpack to run XO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nstanard/XO-Plugin-Webpack.git"
+  },
+  "keywords": [
+    "webpack",
+    "xo",
+    "eslint"
+  ],
+  "author": "Neal Stanard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nstanard/XO-Plugin-Webpack/issues"
+  },
+  "homepage": "https://github.com/nstanard/XO-Plugin-Webpack#readme"
+}
