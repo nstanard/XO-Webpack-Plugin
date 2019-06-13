@@ -30,7 +30,7 @@ module.exports = (env, argv) => {
 	// Example condition to only run on watch
 	if (argv.watch === true) {
 		options.plugins.push(new XoPlugin({
-			// [XO options](https://github.com/sindresorhus/xo#config)
+			// XO Options: https://github.com/sindresorhus/xo#config)
 		}));
 	}
 	return options
