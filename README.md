@@ -4,11 +4,6 @@
 
 ## Install
 
-_You must install XO directly_
-```console
-$ npm i xo --save-dev
-```
-
 _Then install xo-webpack-plugin_
 ```console
 $ npm i xo-webpack-plugin --save-dev
@@ -33,12 +28,12 @@ const options = {
 
 module.exports = (env, argv) => {
 	// Example condition to only run on watch
-    if (argv.watch === true) {
-        options.plugins.push(new XoPlugin({
-        	// [XO options](https://github.com/sindresorhus/xo#config)
-        }));
-    }
-    return options
+	if (argv.watch === true) {
+		options.plugins.push(new XoPlugin({
+			// [XO options](https://github.com/sindresorhus/xo#config)
+		}));
+	}
+	return options
 }
 ```
 
