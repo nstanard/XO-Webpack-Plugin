@@ -4,7 +4,6 @@
 
 ## Install
 
-_Then install xo-webpack-plugin_
 ```console
 $ npm i xo-webpack-plugin --save-dev
 ```
