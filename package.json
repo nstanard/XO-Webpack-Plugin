@@ -22,6 +22,7 @@
 	},
 	"homepage": "https://github.com/nstanard/XO-Plugin-Webpack#readme",
 	"dependencies": {
-		"xo": "0.24.0"
+		"xo": "0.24.0",
+		"set-value": ">=2.0.1"
 	}
 }
